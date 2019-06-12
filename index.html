@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <title>Krishan Jethwa</title>
+        <link rel="shortcut icon" type="image/ico" href=img/favicon.ico>
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e1d5f605f9.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+        <style>
+            header {
+                background-color: rgba(0,0,0,.7);
+                position: fixed;
+                z-index: 10;
+                top:0;
+                left:0;
+                width:100%;
+                color: #fff;
+                padding: 35px 100px 20px;
+                display:flex;
+                justify-content: space-around
+            }
+            
+            header a{
+                text-decoration: none;
+                color: white;
+                opacity: .6;
+                cursor: pointer;
+                
+            }
+            
+            header a:hover{
+                opacity: 1;    
+            }
+            
+            header nav ul{
+                font-size: 14px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+            
+            header nav li{
+                margin: 0 6px;
+            }
+            
+            header nav li:first-child{
+                margin-left: 0;
+            }
+            
+            header nav li:clast-child{
+                margin-right: 0;
+            }
+            @media(max-width:1000px){
+                header{
+                    text-align: center;
+                    flex-direction: column;
+                    padding: 20px 50px;
+                    
+                }
+                header img{
+                    width: 75%;
+                }
+                
+                header nav{
+                    justify-content: space-around;
+                }
+                
+                header h2{
+                    margin-bottom: 15px;
+                }
+            }
+        </style>
+    </head>
+    <body id="top">
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="#top"> Top</a></li>
+                    <li> <a href="#about"> About</a></li>
+                    <li> <a href="#gallery"> Gallery</a></li>
+                    <li> <a href="#skills"> Skills</a></li>
+                    <li> <a href="#contact"> Contact</a></li>
+                    <li> <a href="#social-media"> Links</a></li>
+                    <li> <a href="#"> CV</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--****************************************************** -->
+        
+        <div id="hero">
+            <div class="background-image">
+            </div>
+            <h1>
+                Krishan Jethwa
+            </h1>
+            <h3>
+                Theoretical Physics student at the University of Manchester
+            </h3>
+            <a href="www.google.com" class = "btn" target="_blank"> Go to google </a>
+        </div>
+        <!--****************************************************** -->
+        
+        <div id="about">
+            <h3 class="title"> About Me</h3>
+            <div id="two-cols">
+                <div class="about-img"><img src="img/about.jpg" alt= "thumbs up"></div>
+                <div class="about-bio">
+                    <p>
+                        I am a determined and responsible Physics student seeking an internship. Whilst reading Physics, I have successfully combined my studies with employment, demonstrating time-management, self-motivation and ability to cope under pressure.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        I am an outgoing, smart and confident individual who thrives in a team as well as using my own initiative. My previous employments have allowed me to develop excellent interpersonal skills, being able to explain different concepts to a range of people.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        During my spare time, I have built upon my computing skills, competing in and winning several hackathons. I also have a keen interest in politics, recently competing in a university politics competition, and as a result being given the opportunity to visit 10 Downing Street and the Cabinet office.
+                    </p>
+                    <p>&nbsp;</p>
+                </div>
+                
+                
+            </div>
+            <hr>
+        </div>
+        
+        <!--****************************************************** -->
+        
+        <div id="gallery" class="photo-gallery">
+            <h3 class="title"> Gallery </h3>
+            <p>
+                Some images of the various thing I have done, showcased in my CV, and in my spare time.
+            </p>
+            <hr>
+            <ul class="grid">
+                <li class= "small" style="background-image: url('img/alaska-wilderness-sky-aurora-borealis.jpg')"></li>
+                <li class= "large" style="background-image: url('img/glacier.jpg')"></li>
+                <li class= "large" style="background-image: url('img/alaska-glacier-ice-mountains.jpg')"></li>
+                <li class= "small" style="background-image: url('img/clouds.jpg')"></li>
+            </ul>
+        </div>
+        <hr>
+        <!--****************************************************** -->
+        
+        <div id="skills">
+            <h3 class="title"> My Top Skills</h3>
+            <p>
+                The various activities I have taken part in at University and during my jobs has led me to have a range of skills, however the ones I think are most important are shown below. 
+            </p>
+            
+            <ul class="grid">
+                <li><i class="fas fa-terminal"></i><h4>Programming</h4><p>Programming is changing the way many jobs are done, and with AI and Big Data set to change nearly every industry, I have become proficient in C++ and Python to ensure I am able to make the most of these emerging tools. </p></li>
+                <li><i class="fas fa-users"></i><h4>Teamwork</h4><p>In a world which is more interconnected than ever, it is vital that we make the most of every persons experience. I have first hand experience in this, working as part of the 3000 strong ATLAS collaboration with LHC data during my internship at the university of Gottingen in Germany. </p></li>
+                <li><i class="fas fa-calculator"></i><h4>Problem Solving</h4><p> Day to day in my degree, we study many phenomena, from black holes to electrons within a Hydrogen atom. This means I have developed excellent problem solving skills, wherin I am able to find similarities between proglems, and to simplify problems. </p></li>
+            </ul>
+        </div>
+        
+        <!--****************************************************** -->
+        
+        <div id="contact">>
+            <h3 class="title">Contact Details</h3>
+            <section class="flexbox-section">
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19849.37331614901!2d-0.24429191001408926!3d51.54675115342747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876104dd5f65f2d%3A0x7c54951f7745d138!2sWillesden+Green%2C+London!5e0!3m2!1sen!2suk!4v1560351974409!5m2!1sen!2suk" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </p>
+                <p>Currently I'm based in: <br> Wllesden Green <br> Email: krishanjethwa@outlook.com </p>
+            </section>
+        </div>
+        
+        <!--****************************************************** -->
+        <footer id= "social-media">
+        
+            <ul>
+                <li> <a href="#" target "_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li> <a href="#" target "_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/krishan-j-47b6a89a/" target "_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <p>&copy; <script>document.write(new Date().getFullYear());</script> P.S. Its my first website.</p>
+        </footer>
+        <script type="text/javascript">
+	
+	       $(document).ready(function(){
+
+		  $('a[href^="#"]').on('click',function (e) {e.preventDefault();
+
+
+
+		  var target = this.hash;
+
+		  var $target = $(target);
+
+                                                     
+		  $('html, body').stop().animate({
+
+              'scrollTop': $target.offset().top-100
+
+		  }, 900, 'swing', function () {
+
+              window.location.hash = target-100;
+
+		      });
+
+	       });
+
+        });
+
+</script>
+
+    </body>
+</html>
